@@ -1,0 +1,11 @@
+
+- hosts: wordpress
+
+  roles:
+    - server
+    - php
+    - mysql
+    - wordpress
+    
+  vars:
+    ansible_user: "root"
